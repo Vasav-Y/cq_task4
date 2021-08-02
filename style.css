@@ -247,8 +247,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .topImg img {
+        margin-left: 7rem;
+    }
     .heading1 img {
-        margin-left: 4rem;
+        margin-left: 2.3rem;
     }
     .heading2 img {
         width: 100%;
@@ -276,7 +279,7 @@ body {
         margin-left: 19%;
     }
     .bleft img {
-        width: 15rem;
+        width: 12rem;
     }
     .bleftpara1 {
         margin-left: 8%;
@@ -289,7 +292,7 @@ body {
     }
     .bright img {
         margin-left: 1%;
-        width: 11rem;
+        width: 10rem;
     }
     .brightbtn {
         margin-left: 17%;
@@ -304,27 +307,27 @@ body {
     }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 768px) {
     .topImg img {
-        margin-left: 7rem;
+        margin-left: 20rem;
     }
     .heading1 img {
-        margin-left: 2.5rem;
+        margin-left: 15rem;
     }
     .heading2 img {
         width: 100%;
     }
     .mleft img {
         margin-top: 5%;
-        margin-left: 18%;
+        margin-left: 35%;
         width: 15rem;
     }
     .mleft p {
-        margin-left: 5%;
+        margin-left: 1%;
         font-size: 16px;
     }
     .mleft button {
-        margin-left: 18%;
+        margin-left: 24%;
         font-size: 16px;
     }
     .middle {
@@ -334,38 +337,99 @@ body {
         width: 100%;
     }
     .mright img {
-        margin-left: 19%;
+        margin-left: 31%;
     }
     .bleft img {
-        width: 13rem;
+        width: 22rem;
     }
     .bleftpara1 {
-        margin-left: 8%;
+        margin-left: 40%;
     }
     .bleftpara2 {
-        margin-left: 6%;
+        margin-left: 18%;
     }
     .bleftbtn {
-        margin-left: 30%;
+        margin-left: 45%;
     }
     .bright img {
         margin-left: 1%;
-        width: 9rem;
+        width: 20rem;
     }
     .brightbtn {
-        margin-left: 17%;
+        margin-left: 28%;
     }
     .fl1 ul li {
-        font-size: 10px;
+        font-size: 12px;
         padding-right: 0%;
     }
     .fl2 ul li {
-        font-size: 11px;
+        font-size: 13px;
         padding-right: 0%;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 900px) {
+    .topImg img {
+        margin-left: 23rem;
+    }
+    .heading1 img {
+        margin-left: 18rem;
+    }
+    .heading2 img {
+        width: 100%;
+    }
+    .mleft img {
+        margin-top: 5%;
+        margin-left: 37%;
+        width: 15rem;
+    }
+    .mleft p {
+        margin-left: 1%;
+        font-size: 16px;
+    }
+    .mleft button {
+        margin-left: 24%;
+        font-size: 16px;
+    }
+    .middle {
+        flex-direction: column;
+    }
+    .mleft {
+        width: 100%;
+    }
+    .mright img {
+        margin-left: 31%;
+    }
+    .bleft img {
+        width: 24rem;
+    }
+    .bleftpara1 {
+        margin-left: 40%;
+    }
+    .bleftpara2 {
+        margin-left: 18%;
+    }
+    .bleftbtn {
+        margin-left: 45%;
+    }
+    .bright img {
+        margin-left: 1%;
+        width: 22rem;
+    }
+    .brightbtn {
+        margin-left: 28%;
+    }
+    .fl1 ul li {
+        font-size: 12px;
+        padding-right: 0%;
+    }
+    .fl2 ul li {
+        font-size: 13px;
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
     .topImg img {
         margin-left: 8.2rem;
     }
@@ -376,13 +440,15 @@ body {
         margin-left: 50%;
         transform: translate(-50%);
         margin-top: 2%;
+        width: 64%;
     }
     .mleft img {
         margin-top: 10%;
         margin-left: 40%;
+        width: 55%;
     }
     .mleft p {
-        margin-left: 32%;
+        margin-left: 36%;
         font-size: 26.3px;
     }
     .mleft button {
@@ -396,10 +462,10 @@ body {
         width: 60%;
     }
     .mright img {
-        margin-left: 19%;
+        margin-left: 0%;
     }
     .bleft img {
-        width: 13rem;
+        width: 28rem;
     }
     .bleftpara1 {
         margin-left: 55%;
@@ -410,12 +476,12 @@ body {
     .bleftbtn {
         margin-left: 56%;
     }
-    /* .bright img {
-        margin-left: 1%;
-        width: 9rem;
-    } */
     .brightbtn {
-        margin-left: 30%;
+        margin-left: 36%;
+    }
+    .bright img {
+        width: 28rem;
+        padding-left: 12%;
     }
     .fl1 ul li {
         color: #3a3a3a;
