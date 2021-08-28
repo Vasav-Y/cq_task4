@@ -278,6 +278,17 @@ body {
     .mright img {
         margin-left: 19%;
     }
+    .blue {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .bleft {
+        width: 100%;
+    }
+    .bright {
+        width: 100%;
+    }
     .bleft img {
         width: 12rem;
     }
@@ -304,6 +315,47 @@ body {
     .fl2 ul li {
         font-size: 13px;
         padding-right: 0%;
+    }
+    /*new code */
+    .blue {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        /* height: 100vh; */
+    }
+    .bleft {
+        width: 100%;
+        height: 40vh;
+    }
+    .bright {
+        width: 100%;
+    }
+    .imgblue {
+        /* height: .1rem; */
+        width: 100%;
+        max-height: 0.5rem;
+    }
+    .bleft img {
+        width: 60%;
+        margin-right: 18%;
+    }
+    .bleftpara1 {
+        margin-left: 25%;
+    }
+    .bleftpara2 {
+        margin-left: 7%;
+    }
+    .bleftbtn {
+        margin-top: 5%;
+        margin-left: 35%;
+    }
+    .bright img {
+        margin-left: 20%;
+        width: 60%;
+    }
+    .brightbtn {
+        margin-left: 32%;
+        margin-bottom: 0%;
     }
 }
 
@@ -338,6 +390,10 @@ body {
     }
     .mright img {
         margin-left: 31%;
+    }
+    .blue {
+        display: flex;
+        flex-direction: row;
     }
     .bleft img {
         width: 22rem;
